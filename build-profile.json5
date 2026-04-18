@@ -1,0 +1,43 @@
+{
+  "app": {
+
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
+/*
+"signingConfigs": [
+{
+"name": "default",
+"type": "HarmonyOS",
+"material": {
+"certpath": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_VideoPlayerWithList_com.nefu.myapplication_70086000027178044.cer",
+"storePassword": "0000001B6B26B57D3ACDB1449494EBA80A1AAC8C7A0556874A5E281C0E9C7CA0ECF3A3BDDAA818A3F52842",
+"keyAlias": "debugKey",
+"keyPassword": "0000001B3F809642CAC37B3E0E657F66A080D3C17FE2929FD5991369592701E6FCEDA6914C38B418AB331C",
+"profile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_VideoPlayerWithList_com.nefu.myapplication_70086000027178044.p7b",
+"signAlg": "SHA256withECDSA",
+"storeFile": "C:\\Users\\Administrator\\.ohos\\config\\auto_debug_VideoPlayerWithList_com.nefu.myapplication_70086000027178044.p12"
+}
+}
+],*/

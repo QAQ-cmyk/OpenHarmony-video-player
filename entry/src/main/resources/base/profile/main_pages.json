@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Register",
+    "pages/VideoList",
+    "pages/Favorite",
+    "pages/VideoPlayer"
+  ]
+}
